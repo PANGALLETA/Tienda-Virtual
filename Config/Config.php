@@ -1,13 +1,13 @@
 <?php
 //define("BASE_URL", "localhost/Tienda-virtual/");
-const BASE_URL = "http://localhost/Tienda-virtual/";
+const BASE_URL = "http://localhost/Tienda-virtual";
 
 //Zona horaria
 date_default_timezone_set('America/Bogota');
 
 // Datos de conexión a la Base de Datos
 const DB_HOST = "localhost";
-const DB_NAME = "db_sistema";
+const DB_NAME = "db_tiendavirtual";
 const DB_USER = "root";
 const DB_PASSWORD = "";
 const DB_CHARSET = "charset=utf8";

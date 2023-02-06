@@ -19,30 +19,5 @@ class Home extends Controllers{
         Ipsum.";
         $this->views->getView($this,"home",$data);
     }
-    /*public function insertar()
-    {
-        $data = $this->model->setUser("Julian",3225090321,"Julian@gmail.com");
-        print_r($data);
-    }
-    public function verUsuario($id)
-    {
-        $data = $this->model->getUser($id);
-        print_r($data);
-    }
-    public function actualizar()
-    {
-        $data = $this->model->updateUser(1, "Julian", 3225090321, "Julian@gmail.com");
-        print_r($data);
-    }
-    public function verUsuarios()
-    {
-        $data = $this->model->getUsers();
-        print_r($data);
-    }
-    public function eliminarUsuario($id)
-    {
-        $data = $this->model->delUser($id);
-        print_r($data);
-    }*/
 }
 ?>
